@@ -2,6 +2,7 @@
 
 select * from student_tb;
 
+truncate student_tb;
 # insert into `study`.`student_tb` Database가 use되지 않은 경우
 # insert into `student_tb` Database가 use상태인 경우
 insert into student_tb
@@ -29,3 +30,5 @@ values
 insert into student_tb
 values
 	(0, "김준칠", "010-9988-1916", "skjil1218@kakao.com" , null , now());
+    
+    

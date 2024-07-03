@@ -9,5 +9,3 @@ from
 group by
 	admission_date;
 	
-
-
