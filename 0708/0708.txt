@@ -1,0 +1,27 @@
+pk (Primary Key) :
+
+컴포지트 프라이머리 키(Composite Primary Key) :
+
+
+
+
+unique : 제약조건을 걸 시 컬럼의 중복을  방지함
+	Null 값 처리
+	인덱스 자동 생성
+
+테이블 default/Expression
+         unique랑 사용 할 수 없음 해당 값에 입력 시 같은 내용으로 값을 채움
+
+
+외래 키(Foreign keys) : 참조하는 키 값
+미 사용시 : 트리거 사용
+
+트리거
+old : 기존의 데이터
+new : 새로운 데이터 
+
+view : 가상의 테이블을 만들어서 원본 테이블 조회하듯이 사용 가능
+서브쿼리 저장 같은 개념
+
+전역세팅
+@@ : 변수

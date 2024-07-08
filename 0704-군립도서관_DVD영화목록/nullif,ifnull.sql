@@ -19,3 +19,4 @@ group by
 	발행자
 having
 	publisher_name is not null
+    
